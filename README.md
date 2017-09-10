@@ -22,13 +22,11 @@ This text you see here is *actually* written in Markdown! To get a feel for Mark
 
 Beecology Web Services uses a number of open source projects to work properly:
 
-* [Slim3](https://www.slimframework.com/) - a PHP micro framework for building web applications and API
 * [PHP](http://php.net/) - a server scripting language for writing web pages.
-    * current version: 7.0.22
-    <font color=gray size=72>color=gray</font>
-
-And of course Dillinger itself is open source with a [public repository][dill]
- on GitHub.
+    * *current version: 7.0.22*
+* [Slim3](https://www.slimframework.com/) - a PHP micro framework for building web applications and API
+*
+Beecology Web Service distributed on [GitLab](http://)
 
 ### Installation
 
