@@ -1,6 +1,5 @@
 # Beecology Web Services
 
-[comment]:[![N|Solid](https://cldup.com/dTxpPi9lDf.thumb.png)](https://nodesource.com/products/nsolid)
 
 ### Introduction
 Beecology Web Services is a method of communication between client end and server end over the web. Client end(Android, iOS, browser end/applications) can operate the Web servcies API to process the database distributed on server indirectly.
