@@ -42,21 +42,17 @@ Web Services will return the result in JSON format
 ```JSON
 [{"0":"1","bee_id":"1","1":"Bombus greseocollis","bee_name":"Bombus greseocollis","2":"Brown-belted bumble bee","common_name":"Brown-belted bumble bee","3":"This bumble bee has a black dot on the thorax, is dark around the wings and has a thin orange band before the abdomen becomes mostly black.","description":"This bumble bee has a black dot on the thorax, is dark around the wings and has a thin orange band before the abdomen becomes mostly black.","4":"May - October","active_months":"May - October","5":"bimaculatus, affinis, impatiens","confused":"bimaculatus, affinis, impatiens","6":"greseocollis.png","bee_pic_path":"greseocollis.png","7":null,"abdomen_list":null,"8":null,"thorax_list":null,"9":null,"head_list":null}]
 ```
-For more details, please check [API Documentation](http://beecology.wpi.edu/rest/vendor/api_v1) 
-
-| Plugin | README |
+At present, we have 3 core modules.
+| Module | Description |
 | ------ | ------ |
-| Dropbox | [plugins/dropbox/README.md] [PlDb] |
-| Github | [plugins/github/README.md] [PlGh] |
-| Google Drive | [plugins/googledrive/README.md] [PlGd] |
-| OneDrive | [plugins/onedrive/README.md] [PlOd] |
-| Medium | [plugins/medium/README.md] [PlMe] |
-| Google Analytics | [plugins/googleanalytics/README.md] [PlGa] |
+| BeeDex | methods about Bumblebee Dictionary|
+| Bee Records | methods about Bumblebee Records users submit |
+| USER | methods about user information |
 
-
+For more details, please check [API Documentation](http://beecology.wpi.edu/rest/vendor/api_v1) 
 
 ### Todos
 
- - Write MORE Tests
- - Add Night Mode
+ - Develop new version for meeting the new requirement.(Add bumblebee behaviors, flower module etc.)
+ - Android app and Web app are using the same version of APIs, I would like to separate it into 2 versions since the buiness logic processes of two apps will not completely consistent.
 
