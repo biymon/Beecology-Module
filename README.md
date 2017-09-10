@@ -42,6 +42,7 @@ Web Services will return the result in JSON format
 [{"0":"1","bee_id":"1","1":"Bombus greseocollis","bee_name":"Bombus greseocollis","2":"Brown-belted bumble bee","common_name":"Brown-belted bumble bee","3":"This bumble bee has a black dot on the thorax, is dark around the wings and has a thin orange band before the abdomen becomes mostly black.","description":"This bumble bee has a black dot on the thorax, is dark around the wings and has a thin orange band before the abdomen becomes mostly black.","4":"May - October","active_months":"May - October","5":"bimaculatus, affinis, impatiens","confused":"bimaculatus, affinis, impatiens","6":"greseocollis.png","bee_pic_path":"greseocollis.png","7":null,"abdomen_list":null,"8":null,"thorax_list":null,"9":null,"head_list":null}]
 ```
 At present, we have 3 core modules.
+
 | Module | Description |
 | ------ | ------ |
 | BeeDex | methods about Bumblebee Dictionary|
