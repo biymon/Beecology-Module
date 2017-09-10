@@ -5,32 +5,44 @@
 ### Introduction
 Beecology Web Services is a method of communication between client end and server end over the web. Client end(Android, iOS, browser end/applications) can operate the Web servcies API to process the database distributed on server indirectly.
   - Keep the central database from remote access or attacks.
-  - Clearly 
-
-Markdown is a lightweight markup language based on the formatting conventions that people naturally use in email.  As [John Gruber] writes on the [Markdown site][df1]
-
-> The overriding design goal for Markdown's
-> formatting syntax is to make it as readable
-> as possible. The idea is that a
-> Markdown-formatted document should be
-> publishable as-is, as plain text, without
-> looking like it's been marked up with tags
-> or formatting instructions.
+  - Likes a basic network standard/protocol based on HTTP methods and JSON, client-side could use the languages and tools they want.
+  - Allows flexible business processes that can change process flow based on the specific case.
+  - Allows customized version that different clients could use different APIs independently without mutual interference.
 
 
 ### Technology
 
-Beecology Web Services uses following programming language and frameworks to work properly:
+Beecology Web Services uses following technologies or open-source frameworks to work properly:
 
 * [PHP](http://php.net/) - a server scripting language for writing web pages.
     * *current version: 7.0.22*
 * [Slim3](https://www.slimframework.com/) - a PHP micro framework for building web applications and API.
 * [Swagger-UI](https://swagger.io/swagger-ui/) - a framework for writing APIs documentation.
+* [RESTful mode](http://phppot.com/php/php-restful-web-service/) - an architectural style that specifies constraints on APIs.
 
-The source of Beecology Web Service distributed on [GitLab](http://)
+The source of Beecology Web Service distributed on [GitLab](http://).
 [API Documentation](http://beecology.wpi.edu/rest/vendor/api_v1) is an instruction of how to operate Beecology Web Service for developers.
 
+```diff
+- Web Service is also a bridge connect only DEVELOPERS and SERVER. 
+- INTERNAL SHARING or CLIENT-OREIENTED SHARING SEPARATELY is recommended.
+```
 
+### Usage
+
+To get the bumble bee information which ID is 1, client end need to send a GET http method to request the resource from server.
+The following request URL includes 
+- Main URL: http://beecology.wpi.edu/rest/v1
+- Method Name: BeeDex
+- bumble bee id: 1
+```sh
+GET http://beecology.wpi.edu/rest/v1/BeeDex/1
+```
+Web Services will return the result in JSON format
+```JSON
+[{"0":"1","bee_id":"1","1":"Bombus greseocollis","bee_name":"Bombus greseocollis","2":"Brown-belted bumble bee","common_name":"Brown-belted bumble bee","3":"This bumble bee has a black dot on the thorax, is dark around the wings and has a thin orange band before the abdomen becomes mostly black.","description":"This bumble bee has a black dot on the thorax, is dark around the wings and has a thin orange band before the abdomen becomes mostly black.","4":"May - October","active_months":"May - October","5":"bimaculatus, affinis, impatiens","confused":"bimaculatus, affinis, impatiens","6":"greseocollis.png","bee_pic_path":"greseocollis.png","7":null,"abdomen_list":null,"8":null,"thorax_list":null,"9":null,"head_list":null}]
+```
+For more details, please check [API Documentation](http://beecology.wpi.edu/rest/vendor/api_v1) 
 
 | Plugin | README |
 | ------ | ------ |
@@ -48,29 +60,3 @@ The source of Beecology Web Service distributed on [GitLab](http://)
  - Write MORE Tests
  - Add Night Mode
 
-
-**Free Software, Hell Yeah!**
-
-[//]: # (These are reference links used in the body of this note and get stripped out when the markdown processor does its job. There is no need to format nicely because it shouldn't be seen. Thanks SO - http://stackoverflow.com/questions/4823468/store-comments-in-markdown-syntax)
-
-
-   [dill]: <https://github.com/joemccann/dillinger>
-   [git-repo-url]: <https://github.com/joemccann/dillinger.git>
-   [john gruber]: <http://daringfireball.net>
-   [df1]: <http://daringfireball.net/projects/markdown/>
-   [markdown-it]: <https://github.com/markdown-it/markdown-it>
-   [Ace Editor]: <http://ace.ajax.org>
-   [node.js]: <http://nodejs.org>
-   [Twitter Bootstrap]: <http://twitter.github.com/bootstrap/>
-   [jQuery]: <http://jquery.com>
-   [@tjholowaychuk]: <http://twitter.com/tjholowaychuk>
-   [express]: <http://expressjs.com>
-   [AngularJS]: <http://angularjs.org>
-   [Gulp]: <http://gulpjs.com>
-
-   [PlDb]: <https://github.com/joemccann/dillinger/tree/master/plugins/dropbox/README.md>
-   [PlGh]: <https://github.com/joemccann/dillinger/tree/master/plugins/github/README.md>
-   [PlGd]: <https://github.com/joemccann/dillinger/tree/master/plugins/googledrive/README.md>
-   [PlOd]: <https://github.com/joemccann/dillinger/tree/master/plugins/onedrive/README.md>
-   [PlMe]: <https://github.com/joemccann/dillinger/tree/master/plugins/medium/README.md>
-   [PlGa]: <https://github.com/RahulHP/dillinger/blob/master/plugins/googleanalytics/README.md>
