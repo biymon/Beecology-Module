@@ -18,7 +18,7 @@ Beecology Central Database is managed by PostgreSQL, a open source database mana
 ```
 
 ### Links
-[Module of Beecology Web Services](https://biymon.github.io/Beecology-Module/README.md)
+[Module of Beecology Web Services](https://biymon.github.io/Beecology-Module/)
 
 ### Todos
 
