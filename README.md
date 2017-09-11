@@ -52,7 +52,7 @@ At present, we have 3 core modules.
 For more details, please check [API Documentation](http://beecology.wpi.edu/rest/vendor/api_v1) 
 
 ### Links
-[Module of Beecology Central Database](https://biymon.github.io/Beecology-Module/database_module.md)
+[Module of Beecology Central Database](https://biymon.github.io/Beecology-Module/database_module)
 
 ### Todos
 
